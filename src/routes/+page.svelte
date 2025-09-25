@@ -62,24 +62,38 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Skip the loops, ship the product"
+	subtitle="Visual planning that eliminates AI coding frustration and accelerates your path to profitable apps"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Visual canvas planning",
+			description: "Map your entire app journey on an intuitive visual canvas that eliminates planning paralysis and keeps you focused on what matters.",
+			imageSrc: "/generated/image-a-team-of-people-gathered-around-a-large.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "AI-powered validation",
+			description: "Get instant validation frameworks and market insights before you write a single line of code, reducing the risk of building apps nobody wants.",
+			imageSrc: "/generated/image-a-group-of-professionals-in-an-office-en.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Smart AI prompts",
+			description: "Receive perfectly crafted prompts for each development step that work seamlessly with tools like Lovable and Bolt.",
+			imageSrc: "/generated/image-a-developer-working-at-a-desk-with-noteb.webp"
+		},
+		{
+			title: "Instant tech stack",
+			description: "Get AI-generated technology recommendations tailored to your specific app idea and target market in seconds.",
+			imageSrc: "/generated/image-a-group-of-people-outside-energetically-.webp"
+		},
+		{
+			title: "Growth strategy",
+			description: "Launch with a complete customer acquisition roadmap that turns your MVP into a money-making business from day one.",
+			imageSrc: "/generated/image-several-colleagues-gathered-around-a-tab.webp"
+		},
+		{
+			title: "Progress tracking",
+			description: "Monitor your development journey with visual milestones that keep you motivated and on track to launch.",
+			imageSrc: "/generated/image-a-team-celebrating-progress-by-placing-m.webp"
 		}
 	]}
 />
