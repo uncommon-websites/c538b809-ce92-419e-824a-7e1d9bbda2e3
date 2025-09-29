@@ -2,7 +2,7 @@
 	// Components
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 
-	// Icons
+	// Components
 	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
 	import Story from "./Story.svelte";
 	import SecondaryHero from "$lib/components/layout/hero-sections/SecondaryHero.svelte";
@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Speed",
-			description: "We help developers ship in days, not months. Progress over perfection, always."
+			title: "Visual thinking",
+			description: "Complex planning becomes simple with our canvas-based approach. See your entire app journey in one visual flow."
 		},
 		{
-			title: "Clarity",
-			description: "Turning fuzzy app ideas into clear, actionable launch plans that actually work."
+			title: "AI with purpose",
+			description: "Smart automation that solves real problems—validation, tech stack selection, and structured roadmaps that actually guide you to launch."
 		},
 		{
-			title: "Community",
-			description: "Empowering vibe coders and indie hackers to build profitable apps without limits."
+			title: "Built for builders",
+			description: "Made by developers who lived the frustration of endless coding loops. We know what actually helps you ship."
 		}
 	];
 </script>
@@ -92,7 +92,8 @@
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to skip the loops?"
-	subtitle="Join thousands of developers shipping faster"
-	description="Stop getting stuck in AI coding limbo. Start turning your app ideas into profitable launches with the visual planning system that actually works."
+	title="From app idea to launch in days, not months"
+	subtitle="Join thousands of vibe coders shipping faster"
+	description="Stop building before you're sure. App Canvas gives you AI-powered validation, visual roadmaps, and step-by-step prompts to launch your first profitable app without the guesswork."
+	imageSrc="/generated/image-a-confident-young-developer-standing-in-.webp"
 />
