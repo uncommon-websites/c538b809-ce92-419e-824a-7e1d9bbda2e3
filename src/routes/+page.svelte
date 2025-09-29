@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Plan faster. Launch sooner."
+	subtitle="Build real apps without getting stuck in loops."
+	imageSrc="/generated/image-a-solo-developer-working-at-a-modern-des.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by developers worldwide" 
+	logoUrls={[
+		'https://cdn.brandfetch.io/replit.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/linear.app/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/vercel.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
